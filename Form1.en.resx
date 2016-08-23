@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="go_Header.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 21</value>
+  </data>
+  <data name="go_Header.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 23</value>
+  </data>
+  <data name="go_Header.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="FileDialog_KPG.Title" xml:space="preserve">
+    <value>Choose the Report to Import</value>
+  </data>
+  <data name="HeaderBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>291, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Box_Samples_List.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Box_Samples_List.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="Box_Samples_List.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="Box_Samples_List.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 222</value>
+  </data>
+  <data name="Box_Samples_List.Text" xml:space="preserve">
+    <value>List of
+
+Samples
+
+found inside
+
+the choosen
+
+"OptiNAA
+
+Header"</value>
+  </data>
+  <data name="groupBox_Samples_List.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="groupBox_Samples_List.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="groupBox_Samples_List.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 252</value>
+  </data>
+  <data name="groupBox_Samples_List.Text" xml:space="preserve">
+    <value>SAMPLES LIST</value>
+  </data>
+  <data name="label_Gth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_Gth.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label_Gth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 14</value>
+  </data>
+  <data name="label_Gth.Text" xml:space="preserve">
+    <value>Gth</value>
+  </data>
+  <data name="label_Gepi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_Gepi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label_Gepi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 14</value>
+  </data>
+  <data name="label_Gepi.Text" xml:space="preserve">
+    <value>Gepi</value>
+  </data>
+  <data name="label_irradiation_time.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_irradiation_time.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="label_irradiation_time.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="label_irradiation_time.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="label_irradiation_time.Text" xml:space="preserve">
+    <value>irradiation time (m)</value>
+  </data>
+  <data name="label_ENAA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_ENAA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="label_ENAA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 14</value>
+  </data>
+  <data name="label_ENAA.Text" xml:space="preserve">
+    <value>ENAA</value>
+  </data>
+  <data name="go_KPG_Import.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 23</value>
+  </data>
+  <data name="go_KPG_Import.Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="ancBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ancBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ancBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="ancBox1.Text" xml:space="preserve">
+    <value>Step 2</value>
+  </data>
+  <data name="Sample1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="Sample1.Text" xml:space="preserve">
+    <value>Sample 1</value>
+  </data>
+  <data name="Sample2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="Sample2.Text" xml:space="preserve">
+    <value>Sample 2</value>
+  </data>
+  <data name="Sample3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="Sample3.Text" xml:space="preserve">
+    <value>Sample 3</value>
+  </data>
+  <data name="Sample4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="Sample4.Text" xml:space="preserve">
+    <value>Sample 4</value>
+  </data>
+  <data name="Sample5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="Sample5.Text" xml:space="preserve">
+    <value>Sample 5</value>
+  </data>
+  <data name="Sample6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="Sample6.Text" xml:space="preserve">
+    <value>Sample 6</value>
+  </data>
+  <data name="ancBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ancBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ancBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="ancBox2.Text" xml:space="preserve">
+    <value>Step 2</value>
+  </data>
+  <data name="ancBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ancBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ancBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="ancBox3.Text" xml:space="preserve">
+    <value>Step 2</value>
+  </data>
+  <data name="ancBox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ancBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ancBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="ancBox4.Text" xml:space="preserve">
+    <value>Step 2</value>
+  </data>
+  <data name="ancBox5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ancBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ancBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="ancBox5.Text" xml:space="preserve">
+    <value>Step 2</value>
+  </data>
+  <data name="ancBox6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ancBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="ancBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="ancBox6.Text" xml:space="preserve">
+    <value>Step 2</value>
+  </data>
+  <data name="batch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 23</value>
+  </data>
+  <data name="batch.Text" xml:space="preserve">
+    <value>Batch</value>
+  </data>
+  <data name="go_ANC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="go_ANC.Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="help_Import.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="help_Import.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="help_Import.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="help_Import.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="label_step0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_step0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label_step0.Text" xml:space="preserve">
+    <value>Step 0</value>
+  </data>
+  <data name="go_KPG_view.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="go_KPG_view.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="go_KPG_browse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 15</value>
+  </data>
+  <data name="go_KPG_browse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 23</value>
+  </data>
+  <data name="go_KPG_browse.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="groupBox_Import.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="groupBox_Import.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="groupBox_Import.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 90</value>
+  </data>
+  <data name="groupBox_Import.Text" xml:space="preserve">
+    <value>Import KayZero PerGamma Report</value>
+  </data>
+  <data name="edit_raw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 23</value>
+  </data>
+  <data name="edit_raw.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="help_ANC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="help_ANC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="help_ANC.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="edit_anc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 23</value>
+  </data>
+  <data name="edit_anc.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="groupBox_ANC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="groupBox_ANC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 205</value>
+  </data>
+  <data name="groupBox_ANC.Text" xml:space="preserve">
+    <value>ANC</value>
+  </data>
+  <data name="groupBox_Samples_TODO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="groupBox_Samples_TODO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 205</value>
+  </data>
+  <data name="groupBox_Samples_TODO.Text" xml:space="preserve">
+    <value>SAMPLES TO DO</value>
+  </data>
+  <data name="WIR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="WIR.MaxLength" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="WIR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="U235.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 39</value>
+  </data>
+  <data name="U235.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="U238.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="U238.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="RO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 91</value>
+  </data>
+  <data name="RO.MaxLength" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="RO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="label_WIR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_WIR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_WIR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 16</value>
+  </data>
+  <data name="label_WIR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 13</value>
+  </data>
+  <data name="label_WIR.Text" xml:space="preserve">
+    <value>Isotopic Ratio (U-235/U-238)</value>
+  </data>
+  <data name="label_U235.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_U235.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_U235.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 42</value>
+  </data>
+  <data name="label_U235.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 13</value>
+  </data>
+  <data name="label_U235.Text" xml:space="preserve">
+    <value>U-235 Abundance %</value>
+  </data>
+  <data name="label_U238.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_U238.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_U238.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 69</value>
+  </data>
+  <data name="label_U238.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 13</value>
+  </data>
+  <data name="label_U238.Text" xml:space="preserve">
+    <value>U-238 Abundance %</value>
+  </data>
+  <data name="label_RO.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_RO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_RO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 95</value>
+  </data>
+  <data name="label_RO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 13</value>
+  </data>
+  <data name="label_RO.Text" xml:space="preserve">
+    <value>Elemental U (mg/kg)</value>
+  </data>
+  <data name="SD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 245</value>
+  </data>
+  <data name="SD.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="label_SD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_SD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_SD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 249</value>
+  </data>
+  <data name="label_SD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 13</value>
+  </data>
+  <data name="label_SD.Text" xml:space="preserve">
+    <value>total relative SD (95% conf)</value>
+  </data>
+  <data name="DT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 323</value>
+  </data>
+  <data name="label_SDobs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_SDobs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_SDobs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_SDobs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 225</value>
+  </data>
+  <data name="label_SDobs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 13</value>
+  </data>
+  <data name="label_SDobs.Text" xml:space="preserve">
+    <value>weighted SD observed %</value>
+  </data>
+  <data name="label_SDexp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_SDexp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_SDexp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_SDexp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 198</value>
+  </data>
+  <data name="label_SDexp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 13</value>
+  </data>
+  <data name="label_SDexp.Text" xml:space="preserve">
+    <value>weighted SD experimental %</value>
+  </data>
+  <data name="SDexp.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SDexp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 194</value>
+  </data>
+  <data name="SDexp.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SDexp.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="SDexp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="SDexp.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="SDobs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SDobs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 220</value>
+  </data>
+  <data name="SDobs.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SDobs.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="SDobs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="label_RO5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_RO5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_RO5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 120</value>
+  </data>
+  <data name="label_RO5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="label_RO5.Text" xml:space="preserve">
+    <value>U-235 (mg/kg)</value>
+  </data>
+  <data name="RO5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 117</value>
+  </data>
+  <data name="RO5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="label_RO8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_RO8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_RO8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 147</value>
+  </data>
+  <data name="label_RO8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="label_RO8.Text" xml:space="preserve">
+    <value>U-238 (mg/kg)</value>
+  </data>
+  <data name="RO8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 143</value>
+  </data>
+  <data name="RO8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="label_AW.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_AW.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_AW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 173</value>
+  </data>
+  <data name="label_AW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 13</value>
+  </data>
+  <data name="label_AW.Text" xml:space="preserve">
+    <value>Molar Mass (gr/mol)</value>
+  </data>
+  <data name="AW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 169</value>
+  </data>
+  <data name="AW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="groupBox_Results_Data.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 42</value>
+  </data>
+  <data name="groupBox_Results_Data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 275</value>
+  </data>
+  <data name="groupBox_Results.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="groupBox_Results.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 345</value>
+  </data>
+  <data name="groupBox_Results.Text" xml:space="preserve">
+    <value>URANIUM ANALYSIS</value>
+  </data>
+  <data name="LOG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 296</value>
+  </data>
+  <data name="LOG.Text" xml:space="preserve">
+    <value>
+
+Displays run-time information about the samples being analyzed. 
+
+To Save the information showed here, click on 'PRINT'.
+
+The 'CLEAR' button will only clear the window.</value>
+  </data>
+  <data name="$this.AccessibleName" xml:space="preserve">
+    <value>OptiNAA v3.3</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>719, 710</value>
+  </data>
+  <data name="label_all.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_all.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_all.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_all.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 13</value>
+  </data>
+  <data name="label_all.Text" xml:space="preserve">
+    <value>Choose between ALL ISOTOPE'S GAMMAS or just the RECOMMENDED ones</value>
+  </data>
+  <data name="all.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 23</value>
+  </data>
+  <data name="all.Text" xml:space="preserve">
+    <value>ALL GAMMAS</value>
+  </data>
+  <data name="label_PANIC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_PANIC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label_PANIC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 13</value>
+  </data>
+  <data name="label_PANIC.Text" xml:space="preserve">
+    <value>For complicated multi-elemental samples activate PANIC</value>
+  </data>
+  <data name="PANIC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 23</value>
+  </data>
+  <data name="tutorial.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt, style=Bold</value>
+  </data>
+  <data name="tutorial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 28</value>
+  </data>
+  <data name="tutorial.Text" xml:space="preserve">
+    <value>TUTORIAL</value>
+  </data>
+  <data name="LOG_Clear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 319</value>
+  </data>
+  <data name="LOG_Clear.Text" xml:space="preserve">
+    <value>CLEAR</value>
+  </data>
+  <data name="LOG_Print.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 319</value>
+  </data>
+  <data name="LOG_Print.Text" xml:space="preserve">
+    <value>PRINT</value>
+  </data>
+  <data name="groupBox_INFO.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="groupBox_INFO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 362</value>
+  </data>
+  <data name="groupBox_INFO.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 345</value>
+  </data>
+  <data name="groupBox_INFO.Text" xml:space="preserve">
+    <value>INFORMATION WINDOW</value>
+  </data>
+  <data name="link_author.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="link_author.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="link_author.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 16</value>
+  </data>
+  <data name="link_author.Text" xml:space="preserve">
+    <value>Author:</value>
+  </data>
+  <data name="email_data.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="email_data.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="email_data.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="email_data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 16</value>
+  </data>
+  <data name="email_data.Text" xml:space="preserve">
+    <value>fulviofarina@gmail.com</value>
+  </data>
+  <data name="link_email.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="link_email.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="link_email.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 16</value>
+  </data>
+  <data name="link_email.Text" xml:space="preserve">
+    <value>e-mail:</value>
+  </data>
+  <data name="author_data.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="author_data.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="author_data.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="author_data.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 16</value>
+  </data>
+  <data name="author_data.Text" xml:space="preserve">
+    <value>Fulvio Farina Arboccó</value>
+  </data>
+  <data name="help_IRS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="help_IRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="help_IRS.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="edit_irs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 23</value>
+  </data>
+  <data name="edit_irs.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="go_IRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="go_IRS.Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="irsBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="irsBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="irsBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="irsBox1.Text" xml:space="preserve">
+    <value>Step 3</value>
+  </data>
+  <data name="irsBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="irsBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="irsBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="irsBox2.Text" xml:space="preserve">
+    <value>Step 3</value>
+  </data>
+  <data name="irsBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="irsBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="irsBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="irsBox3.Text" xml:space="preserve">
+    <value>Step 3</value>
+  </data>
+  <data name="irsBox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="irsBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="irsBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="irsBox4.Text" xml:space="preserve">
+    <value>Step 3</value>
+  </data>
+  <data name="irsBox5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="irsBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="irsBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="irsBox5.Text" xml:space="preserve">
+    <value>Step 3</value>
+  </data>
+  <data name="irsBox6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="irsBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="irsBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="irsBox6.Text" xml:space="preserve">
+    <value>Step 3</value>
+  </data>
+  <data name="groupBox_IRS.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="groupBox_IRS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 205</value>
+  </data>
+  <data name="groupBox_IRS.Text" xml:space="preserve">
+    <value>IRS</value>
+  </data>
+  <data name="edit_res.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 23</value>
+  </data>
+  <data name="edit_res.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="help_RES.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="help_RES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="help_RES.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="go_RES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="go_RES.Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="groupBox_RES.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="groupBox_RES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 205</value>
+  </data>
+  <data name="groupBox_RES.Text" xml:space="preserve">
+    <value>RES</value>
+  </data>
+  <data name="help_WIR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="help_WIR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="help_WIR.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="wirBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wirBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="wirBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="wirBox1.Text" xml:space="preserve">
+    <value>Step 4</value>
+  </data>
+  <data name="go_WIR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 23</value>
+  </data>
+  <data name="go_WIR.Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="edit_wir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 23</value>
+  </data>
+  <data name="edit_wir.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="wirBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wirBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="wirBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="wirBox2.Text" xml:space="preserve">
+    <value>Step 4</value>
+  </data>
+  <data name="wirBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wirBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="wirBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="wirBox3.Text" xml:space="preserve">
+    <value>Step 4</value>
+  </data>
+  <data name="wirBox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wirBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="wirBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="wirBox4.Text" xml:space="preserve">
+    <value>Step 4</value>
+  </data>
+  <data name="wirBox5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wirBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="wirBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="wirBox5.Text" xml:space="preserve">
+    <value>Step 4</value>
+  </data>
+  <data name="wirBox6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wirBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="wirBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="wirBox6.Text" xml:space="preserve">
+    <value>Step 4</value>
+  </data>
+  <data name="groupBox_WIR.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="groupBox_WIR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 205</value>
+  </data>
+  <data name="groupBox_WIR.Text" xml:space="preserve">
+    <value>WIR</value>
+  </data>
+  <data name="help_Header.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="help_Header.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="help_Header.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="help_Header.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="label_step1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_step1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label_step1.Text" xml:space="preserve">
+    <value>Step 1</value>
+  </data>
+  <data name="groupBox_Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="groupBox_Header.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 52</value>
+  </data>
+  <data name="groupBox_Header.Text" xml:space="preserve">
+    <value>OptiNAA Header</value>
+  </data>
+  <data name="help_228.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="help_228.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="help_228.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="help_228.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="go_228.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="go_228.Text" xml:space="preserve">
+    <value>Correct</value>
+  </data>
+  <data name="NpBox1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NpBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="NpBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="NpBox1.Text" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="NpBox2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NpBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="NpBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="NpBox2.Text" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="NpBox6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NpBox6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="NpBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="NpBox6.Text" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="NpBox3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NpBox3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="NpBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="NpBox3.Text" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="NpBox5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NpBox5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="NpBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="NpBox5.Text" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="NpBox4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NpBox4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="NpBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="NpBox4.Text" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="groupBox_228.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="groupBox_228.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 205</value>
+  </data>
+  <data name="groupBox_228.Text" xml:space="preserve">
+    <value>228</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAIAC
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICAgADAwMAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAd3d3d3d3d3d3d3d3d3dwBEREREREREREREREREREcAT/
+        ////////////////9HAE//////////////////RwBP/////////////////0cAT/////////////////
+        9HAE//////////////////RwBP/////////////////0cAT/////////////////9HAE////////////
+        //////RwBP/////////////////0cAT/////////////////9HAE//////////////////RwBP//////
+        ///////////0cAT/////////////////9HAE//////////////////RwBP/////////////////0cAT/
+        ////////////////9HAE//////////////////RwBP/////////////////0cASIiIiIiIiIiIiIiIiI
+        hHAERERERERERERERERERERwBExMTExMTExMTE7Ozkl0cATMzMzMzMzMzMzMzMzMxAAARERERERERERE
+        REREREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        /////////////8AAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAA
+        AAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAA8AAAAf/////////////
+        //8oAAAAEAAAACAAAAABAAQAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAICAgADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAB3d3d3d3
+        d3dERERERERER0////////hHT///////+EdP///////4R0////////hHT///////+EdP///////4R0//
+        //////hHT///////+EdIiIiIiIiIR0zMzMzMzMxHxERERERERMAAAAAAAAAAAAAAAAAAAAAA//8AAIAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAD//wAA//8AAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OPTINAA v3.3 for the SCK-CEN's k0-INAA Group</value>
+  </data>
+  <data name="FileDialog_Header.Title" xml:space="preserve">
+    <value>Choose the Header to Open</value>
+  </data>
+</root>
