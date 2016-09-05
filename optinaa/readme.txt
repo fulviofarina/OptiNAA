@@ -10,3 +10,5 @@ BR1/S84	17.5	-0.0130
 
 Change the value of f and alpha for the respective channel.
 Save the file and close it.
+
+The file (PowerPoint) "help.ppt" contains a Tutorial on how to use the program
