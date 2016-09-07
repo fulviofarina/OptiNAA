@@ -1,5 +1,5 @@
 
-**The file (PowerPoint) **"help.ppt"** contains a Tutorial on how to use the program**
+**The file (PowerPoint) "help.ppt" contains a Tutorial on how to use the program**
 
 If you need to change the channel parameters **f** and **alpha**, open:
 
@@ -16,5 +16,3 @@ The following will be shown:
 
 Change the value of **f** and **alpha** for the respective channel.
 Save the file and close it.
-
-
