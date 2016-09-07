@@ -1,3 +1,7 @@
+# OptiNAA
+A program meant to aid "KayZero for Windows" users in the determination of Uranium-235 enrichment in complex samples by Instrumental k0-NAA. It employs "apparent" natural-U concentration and natural-U "proposed" fission corrections reported by KayZero to determine the enrichment factor and, to propose modified correction factors
+
+
 
 **The file (PowerPoint) "help.ppt" contains a Tutorial on how to use the program**
 
